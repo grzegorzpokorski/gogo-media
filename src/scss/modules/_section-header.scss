@@ -1,0 +1,21 @@
+.section-header {
+  margin-bottom: 2.5rem;
+  --section-header-color: var(--color-dark);
+  color: var(--section-header-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.3125rem;
+
+  &__title {
+    font-size: 2.5rem;
+  }
+
+  &__description {
+    font-size: 1.25rem;
+  }
+
+  &--blue {
+    --section-header-color: var(--white);
+  }
+}

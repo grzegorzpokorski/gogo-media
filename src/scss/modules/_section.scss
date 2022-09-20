@@ -1,0 +1,10 @@
+.section {
+  padding: 3.125rem 0;
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+
+  &--blue {
+    background-color: var(--blue);
+  }
+}

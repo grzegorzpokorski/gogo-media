@@ -1,0 +1,11 @@
+.header {
+  padding-top: 1.4375rem;
+  padding-bottom: 1.4375rem;
+
+  &__logo {
+    display: block;
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+  }
+}

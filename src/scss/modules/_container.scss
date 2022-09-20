@@ -1,0 +1,16 @@
+.container {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin: 0 auto;
+
+  --container-width: calc(100% - 1.5rem);
+  width: var(--container-width);
+
+  @each $breakpoint-name, $val in $breakpoints {
+    @include mediaquery($breakpoint-name) {
+      --container-width: calc(
+        #{map-get($container-width, $breakpoint-name)} - 1.5rem
+      );
+    }
+  }
+}

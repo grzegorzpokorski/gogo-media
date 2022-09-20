@@ -1,0 +1,7 @@
+@mixin mediaquery($query) {
+  @if map-has-key($breakpoints, $query) {
+    @media screen and #{map-get($breakpoints, $query)} {
+      @content;
+    }
+  }
+}

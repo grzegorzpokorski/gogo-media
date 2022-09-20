@@ -1,0 +1,29 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #215398;
+  --gray: #f1f6fc;
+  --light-color: #808080;
+  --dark-color: #2d3236;
+
+  font-size: 16px;
+  --font-family: "Rubik", Arial, sans-serif;
+  --font-weight: 300;
+
+  --line-height: 1.6;
+  --line-height--headings: 1.2;
+}
+
+$breakpoints: (
+  "sm": "(min-width: 576px)",
+  "md": "(min-width: 768px)",
+  "lg": "(min-width: 992px)",
+  "xl": "(min-width: 1200px)",
+);
+
+$container-width: (
+  "sm": "540px",
+  "md": "767px",
+  "lg": "991px",
+  "xl": "1180px",
+);
